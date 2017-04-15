@@ -1,1 +1,37 @@
-style.css
+
+
+body {
+	background-color: #F4E8FF !important;
+}
+
+#main-container {
+	margin: 4%;
+	padding: 3%;
+	height: 85%;
+	width: 92%;
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+#main-container:before, #main-container:after {
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+#main-container > .ui.segment {
+	padding-bottom: 5px;
+	text-align: center;
+}
+
+#main-container > .ui.segment i {
+	font-size: 2em;
+	width: 10%;
+	color: #727272;
+	cursor: pointer;
+}
+
+#main-container > .ui.segment i:hover {
+	color: #97839E;
+}
+
+.hidden-body {
+	display: none;
+}
